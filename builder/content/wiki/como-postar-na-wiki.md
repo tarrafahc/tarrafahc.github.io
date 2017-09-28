@@ -1,9 +1,7 @@
 +++
 title = "Como postar conteúdo no site do Tarrafa"
-date = ""
 menu = ""
 description = ""
-lastmod = ""
 +++
 
 O site do tarrafa foi feito usando (Hugo)[gohugo.io] para gerar as páginas do site, e (git)[https://git-scm.com/] para fazer o versionamento e deploy. O processo para gerar conteúdo pro site se resume em:

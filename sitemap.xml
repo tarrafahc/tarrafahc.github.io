@@ -3,32 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>tarrafahc.github.io/agenda/</loc>
+    <loc>https://tarrafahc.github.io/agenda/</loc>
     <lastmod>2017-09-21T18:04:02-03:00</lastmod>
   </url>
   
   <url>
-    <loc>tarrafahc.github.io/sobre/</loc>
+    <loc>https://tarrafahc.github.io/sobre/</loc>
     <lastmod>2017-06-30T14:21:34-03:00</lastmod>
   </url>
   
   <url>
-    <loc>tarrafahc.github.io/categories/</loc>
+    <loc>https://tarrafahc.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tarrafahc.github.io/contribua/</loc>
+    <loc>https://tarrafahc.github.io/wiki/como-postar-na-wiki/</loc>
   </url>
   
   <url>
-    <loc>tarrafahc.github.io/tags/</loc>
+    <loc>https://tarrafahc.github.io/contribua/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tarrafahc.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>tarrafahc.github.io/</loc>
+    <loc>https://tarrafahc.github.io/</loc>
     <lastmod>2017-09-21T18:04:02-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tarrafahc.github.io/wiki/</loc>
     <priority>0</priority>
   </url>
   

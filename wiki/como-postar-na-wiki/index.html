@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<title> Contribua com o Tarrafa &middot; Tarrafa Hacker Clube </title>
+		<title> Como postar conteúdo no site do Tarrafa &middot; Tarrafa Hacker Clube </title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -80,12 +80,78 @@
 		<div class="container-fluid">
 			<div class="row justify-content-sm-center">
 				<div class="col col-sm-6 col-md-5 col-lg-5 col-xl-4 align-self-center user-description">
-					<h1 class="display-4">Contribua com o Tarrafa</h1>
-					<p class="lead">Maneiras de como ajudar o hacker clube de Floripa</p>
+					<h1 class="display-4">Como postar conteúdo no site do Tarrafa</h1>
+					<p class="lead"></p>
 					<p class=""><em>Última atualização: 0001-01-01 00:00:00 &#43;0000 UTC</em></p>
 					<hr class="light"></hr>
 					<div class="post-content">
 						
+
+<p>O site do tarrafa foi feito usando (Hugo)[gohugo.io] para gerar as páginas do site, e (git)[<a href="https://git-scm.com/">https://git-scm.com/</a>] para fazer o versionamento e deploy. O processo para gerar conteúdo pro site se resume em:</p>
+
+<ul>
+<li>Instalar os programas envolvidos</li>
+<li>Clonar o repositório</li>
+<li>Criar conteúdo</li>
+<li>Gerar o Site</li>
+</ul>
+
+<h1 id="instalação-dos-programas">Instalação dos programas</h1>
+
+<p>Se a sua distribuição não vem com git instalado, a instalação pode ser realizada diretamente pelo gerenciador de pacotes. No debian por exemplo seria:</p>
+
+<p>sudo apt-get install git</p>
+
+<p>(tenho que aprender como mostrar código em markdown)</p>
+
+<p>Já para a instalação do hugo, eu recomendo o uso dos binários do site deles, como descrito (nesta sessão)[<a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a>].</p>
+
+<p>Confira se o hugo roda no seu computador através do comando:</p>
+
+<p>hugo help</p>
+
+<p>ou</p>
+
+<p>hugo env</p>
+
+<h1 id="clonagem-do-repositório-e-teste">Clonagem do repositório e teste</h1>
+
+<p>O site do Tarrafa está hospedado no github pages, serviço gratuito de hospedagem de páginas estáticas voltada para desenvolvedores, organizações e seus projetos. O repositório do site pode ser clonado através do comando:</p>
+
+<p>git clone <a href="https://github.com/tarrafahc/tarrafahc.github.io.git">https://github.com/tarrafahc/tarrafahc.github.io.git</a></p>
+
+<p>a partir disso entre na pasta builder do repositório e teste se o hugo gera o site corretamente:</p>
+
+<p>hugo server</p>
+
+<p>abra o seu navegador em localhost:1313</p>
+
+<p>Ao executar o comando hugo server, toda alteração na pasta é atualizada pelo hugo e exibida no localhost:1313. Agora podemos criar páginas ou editar o tema.</p>
+
+<h1 id="criar-conteúdo">Criar conteúdo</h1>
+
+<h2 id="novas-páginas">novas páginas</h2>
+
+<p>Novas páginas podem ser criadas pelos comando:</p>
+
+<p>hugo new <nome da página>.md</p>
+
+<p>exemplos:</p>
+
+<p>hugo new wiki/como-hackear-um-facebook.md</p>
+
+<p>hugo new eventos.md</p>
+
+<p>tem que por o .md no final para o hugo reconhecer o arquivo. Doutra forma n &ldquo;renderiza&rdquo;</p>
+
+<p>Ao executar o comando, um arquivo .md é criado na pasta /content e pode ser editado usando markdown.O estilo de markdown é o padrão do hugo chamado blackfriday e a documentação está disponível (aqui)[<a href="https://gohugo.io/content-management/formats/)">https://gohugo.io/content-management/formats/)</a>.</p>
+
+<p>Caso queiras editar alguma página existente, vais encontrá-la em /content e pronta para ser editada.</p>
+
+<h1 id="atualizando-as-alterações">Atualizando as alterações</h1>
+
+<p>Ok, depois de algumas iterações o conteúdo está pronto pra ir para a página. Execute o script deploy.sh e ele faz tudo pra ti.</p>
+
 					</div>
 					
 					<div class="post-comments">
