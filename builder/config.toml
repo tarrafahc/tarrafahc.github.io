@@ -1,9 +1,13 @@
 languageCode = "en-us"
 title = "Tarrafa Hacker Clube"
-baseURL = "tarrafahc.github.io"
-publishDir = "docs/"
+baseURL = "https://tarrafahc.github.io"
+publishDir = ".."
 theme = "tarrafa"
 [menu]
+  [[menu.header]]
+    name = "wiki"
+    weight = 2
+    url = "/wiki"
   [[menu.header]]
     name = "agenda"
     weight = 2
