@@ -1,5 +1,6 @@
 +++
 title = "Como postar conteúdo no site do Tarrafa"
+date = 2017-09-29
 menu = ""
 description = ""
 +++
