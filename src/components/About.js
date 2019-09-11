@@ -33,7 +33,7 @@ const About = () => {
         a participação nas reuniões é um bom começo, a menos é claro que a
         distância seja muita e impossibilite sua participação. Caso contrário
         encorajamos muito a sua vinda ao Tarrafa, que atualmente localiza-se no{" "}
-        <a href="https://www.google.com.br/maps/place/Pavilhinho,+Florian%C3%B3polis+-+SC/">
+        <a href="https://www.openstreetmap.org/way/43238581">
           Pavilhinho da ARQ
         </a>
         .
