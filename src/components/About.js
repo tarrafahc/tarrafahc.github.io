@@ -15,15 +15,17 @@ const About = () => {
         do conhecimento humano, podem se encontrar, compartilhar conhecimentos e
         colaborar em projetos conjuntos.
         <strong>
+          {" "}
           Se você tem interesse no Tarrafa, sugerimos que entre em nossa{" "}
-          <a href="https://groups.google.com/forum/#!forum/floripa-hackerspace">
+          <a href="https://lists.riseup.net/www/info/tarrafahackerclube">
             lista
           </a>
-        </strong>
-        . Também pedimos que ao entrar pra lista, você se apresente, diga seu
-        nome, de onde é, quais seus interesses, se deseja participar do Tarrafa,
-        o que gostaria de ver, que tipo de atividade gostaria de participar ou
-        de propor no Tarrafa, enfim, fale um pouco sobre si.
+        </strong>{" "}
+        (migramos para o RiseUp!). Também pedimos que ao entrar pra lista, você
+        se apresente, diga seu nome, de onde é, quais seus interesses, se deseja
+        participar do Tarrafa, o que gostaria de ver, que tipo de atividade
+        gostaria de participar ou de propor no Tarrafa, enfim, fale um pouco
+        sobre si.
       </p>
       <p>
         Participe também das reuniões mensais, que ocorrem sempre na última
