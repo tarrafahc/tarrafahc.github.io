@@ -4,7 +4,8 @@ import { Link, withRouter } from "react-router-dom";
 const NavBar = props => {
   const navItems = [
     { path: "/", text: "Início" },
-    { path: "/about", text: "Sobre nós" },
+    { path: "/aboutUs", text: "Sobre nós" },
+    { path: "/aboutHack", text: "Sobre a Cultura Hacker" },
     { path: "/calendar", text: "Agenda de Atividades" }
   ];
 
