@@ -1,6 +1,7 @@
 # TarrafaHC Website
 
-Este projeto foi feito em [React](https://reactjs.org/), uma biblioteca Javascript para criar websites.
+Este projeto foi feito em [React](https://reactjs.org/), uma biblioteca Javascript para criar websites.\
+*Atualmente há um problema com o certificado de segurança do Tarrafa, estamos trabalhando nisso*
 
 ![demo](https://i.imgur.com/8Wlv2OZ.gif)
 
