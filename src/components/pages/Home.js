@@ -8,7 +8,7 @@ const Home = () => {
       <p>O Tarrafa possui um porteiro eletrônico, mas precisamos revisar ele pra fazer funcionar novamente :p</p>
       <p>
         Por enquanto você pode nos {<Link to="/about">conhecer</Link>} um pouco mais ou ver o que temos de{' '}
-        {<Link to="/calendar">atividades</Link>}!
+        {<Link to="/activities">atividades</Link>}!
       </p>
       <p>
         Participe da nossa <a href="https://lists.riseup.net/www/info/tarrafahackerclube">lista de email</a>!

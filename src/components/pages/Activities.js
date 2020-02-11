@@ -1,7 +1,7 @@
 import React from 'react'
 import StudyGroup from '../cards/StudyGroup'
 
-const Calendar = () => {
+const Activities = () => {
   const studyGroups = [
     {
       title: 'C e Linux',
@@ -57,4 +57,4 @@ const Calendar = () => {
   )
 }
 
-export default Calendar
+export default Activities

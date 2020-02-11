@@ -6,7 +6,7 @@ const NavBar = props => {
     { path: '/', text: 'Início' },
     { path: '/aboutUs', text: 'Sobre nós' },
     { path: '/aboutHack', text: 'Sobre a Cultura Hacker' },
-    { path: '/calendar', text: 'Agenda de Atividades' },
+    { path: '/activities', text: 'Agenda de Atividades' },
   ]
 
   const renderItems = (navItems, props) =>
