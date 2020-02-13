@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+	<head>
+		<title> {{ .Site.Title }} </title>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+		{{ partial "header.html" . }}
+		<div class="container wrapper">
+			<div class="row">
+				<div class="col-sm-3 col-centered">
+					<img alt="profile-picture" class="img-responsive img-circle user-picture" src="{{ .Site.Params.ProfilePicture }}">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 user-profile text-center">
+
+					<h1 id="user-name">404 - not found</h1>
+
+				</div>
+			</div>
+
+		</div>
+		{{ partial "footer.html" . }}
+	</body>
+</html>
