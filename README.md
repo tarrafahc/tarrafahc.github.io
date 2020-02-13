@@ -1,5 +1,7 @@
 # TarrafaHC Website
 
+[![Build Status](https://travis-ci.com/tarrafahc/tarrafahc.github.io.svg?branch=dev)](https://travis-ci.com/tarrafahc/tarrafahc.github.io)
+
 Projeto em [React](https://reactjs.org/) para o site do Tarrafa Hackerclub  
 _Atualmente há um problema com o certificado de segurança do Tarrafa, estamos trabalhando nisso_
 
