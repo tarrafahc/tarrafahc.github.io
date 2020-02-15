@@ -24,8 +24,8 @@ npm install
 # Serve website on port 3000
 npm start
 
-# Deploy to GitHub Pages
-npm run deploy
+# Deploy to GitHub Pages (via Travis CI)
+git push origin dev
 ```
 
 Para usar uma página de usuário (e não de projeto) no Github Pages, é necessário que a
