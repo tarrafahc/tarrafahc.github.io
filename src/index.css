@@ -1,10 +1,18 @@
+/* Color Scheme: https://coolors.co/0a2239-80d3f2-fa8334-fbd905-225560 */
+
 body {
+  --color1: #fbd905;
+  --color2: #80d3f2;
+  --color3: #0a2239;
+  --color4: #fa8334;
+  --color5: #225560;
+
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 
-  background-color: #0a2239;
-  color: #80d3f2;
+  background-color: var(--color3);
+  color: var(--color2);
 }
 
 section {
@@ -16,20 +24,44 @@ section {
 }
 
 h1 {
-  text-decoration: underline;
-  color: #fbd905;
+  color: var(--color1);
 }
 
 h3,
 h2,
 a {
-  color: #fbd905;
+  color: var(--color1);
 }
 
 p {
-  color: #80d3f2;
+  color: var(--color2);
 }
 
-.tags {
-  color: #fa8334;
+
+#calendar {
+  text-align: center;
+}
+
+#calendar iframe {
+  width: 100%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  #calendar {
+    overflow: hidden;
+  }
+
+  #calendar iframe {
+    width: 250vw;
+    height: 350px;
+  }
 }

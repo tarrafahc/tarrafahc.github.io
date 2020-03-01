@@ -44,13 +44,15 @@ const Activities = () => {
       </ul>
 
       <h2>Agenda</h2>
-      <iframe
-        title="calendar"
-        src="https://calendar.google.com/calendar/embed?src=p1u60bfuqm5joi5eau3l37003o%40group.calendar.google.com&ctz=America%2FSao_Paulo"
-        width="800"
-        height="600"
-        scrolling="no"
-      />
+      <div id="calendar">
+        <iframe
+          title="calendar"
+          src="https://calendar.google.com/calendar/embed?src=p1u60bfuqm5joi5eau3l37003o%40group.calendar.google.com&ctz=America%2FSao_Paulo"
+          width="800"
+          height="600"
+          align="center"
+        />
+      </div>
       <p>Estamos querendo a migrar a nossa agenda para alguma alternativa.</p>
       <p>
         Contribua com a discussão na <a href="https://lists.riseup.net/www/info/tarrafahackerclube">lista de email</a>{' '}
