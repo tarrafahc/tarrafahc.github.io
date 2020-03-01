@@ -1,9 +1,12 @@
 import React from 'react'
+import Emoji from '../Emoji'
 
 const About = () => {
   return (
     <article>
-      <h1>Sobre o Tarrafa</h1>
+      <h1>
+        <Emoji symbol="🏰" label="castle" /> Sobre o Tarrafa
+      </h1>
       <p>
         O #Tarrafa é um <a href="http://pt.wikipedia.org/wiki/Hackerspace">Hackerspace</a> situado em{' '}
         <a href="http://pt.wikipedia.org/Florian%C3%B3polis">Florianópolis</a>. Somos um laboratório comunitário, espaço

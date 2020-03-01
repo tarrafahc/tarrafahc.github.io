@@ -1,9 +1,12 @@
 import React from 'react'
+import Emoji from '../Emoji'
 
 const AboutHack = () => {
   return (
     <div>
-      <h1>Sobre a Cultura Hacker</h1>
+      <h1>
+        <Emoji symbol="💾" label="floppy disk" /> Sobre a Cultura Hacker
+      </h1>
       <p>
         {' '}
         Esta cultura teve origem na busca incansável por aprendizado e entendimento da relação dos computadores com as

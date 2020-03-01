@@ -1,5 +1,6 @@
 import React from 'react'
 import StudyGroup from '../cards/StudyGroup'
+import Emoji from '../Emoji'
 
 const Activities = () => {
   const studyGroups = [
@@ -30,7 +31,9 @@ const Activities = () => {
   ]
   return (
     <article>
-      <h1>Agenda do Tarrafa</h1>
+      <h1>
+        <Emoji symbol="📅" label="calendar" /> Agenda do Tarrafa
+      </h1>
 
       <h2>Grupos de estudos</h2>
       <p>Atualmente temos {studyGroups.length} grupos de estudo disponíveis:</p>
