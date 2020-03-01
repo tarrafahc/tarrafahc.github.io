@@ -29,6 +29,7 @@ const Activities = () => {
       tags: ['cyber security', 'penetration testing'],
     },
   ]
+  const studyGroupCards = studyGroups.map(group => <StudyGroup group={group} />)
   return (
     <article>
       <h1>
@@ -37,11 +38,8 @@ const Activities = () => {
 
       <h2>Grupos de estudos</h2>
       <p>Atualmente temos {studyGroups.length} grupos de estudo disponíveis:</p>
-      <ul>
-        {studyGroups.map(group => (
-          <StudyGroup group={group} />
-        ))}
-      </ul>
+      <ul className="card-container">{studyGroupCards}</ul>
+      <p>*Confirme na agenda abaixo os dias exatos dos encontros</p>
 
       <h2>Agenda</h2>
       <div id="calendar">
