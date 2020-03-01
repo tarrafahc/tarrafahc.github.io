@@ -39,6 +39,7 @@ p {
 }
 
 .card-container {
+  margin: 10px 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -47,9 +48,9 @@ p {
 
 .card {
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  transition: 0.1s;
   background-color: var(--color5);
   border-radius: 10px;
   width: 80vw;
@@ -59,7 +60,7 @@ p {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
 
 .card .card-content {

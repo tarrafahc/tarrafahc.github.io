@@ -37,8 +37,7 @@ const Activities = () => {
         <Emoji symbol="📅" label="calendar" /> Agenda do Tarrafa
       </h1>
 
-      <h2>Grupos de estudos</h2>
-      <p>Atualmente temos {studyGroups.length} grupos de estudo disponíveis:</p>
+      <p>Grupos de estudos rolando:</p>
       <ul className="card-container">{studyGroupCards}</ul>
       <p>*Confirme na agenda abaixo os dias exatos dos encontros</p>
 
