@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import { ReactComponent as GithubIcon } from './atoms/Github.svg'
 
 const NavBar = props => {
   const navItems = [
@@ -35,6 +36,9 @@ const NavBar = props => {
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul className="navbar-nav justify-content-end">{renderItems(navItems, props)}</ul>
       </div>
+      <a href="https://github.com/tarrafahc/tarrafahc.github.io" target="_blank" rel="noopener noreferrer">
+        {<GithubIcon />}
+      </a>
     </nav>
   )
 }
