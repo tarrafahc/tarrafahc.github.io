@@ -1,5 +1,5 @@
 import React from 'react'
-import Emoji from '../Emoji'
+import Emoji from '../atoms/Emoji'
 
 const AboutHack = () => {
   return (

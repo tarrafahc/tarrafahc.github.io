@@ -1,6 +1,6 @@
 import React from 'react'
 import StudyGroup from '../cards/StudyGroup'
-import Emoji from '../Emoji'
+import Emoji from '../atoms/Emoji'
 
 const Activities = () => {
   const studyGroups = [

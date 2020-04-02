@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Emoji from '../Emoji'
+import Emoji from '../atoms/Emoji'
 
 const Home = () => {
   return (
