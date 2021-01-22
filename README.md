@@ -6,7 +6,7 @@
 [![https://img.shields.io/badge/made%20with-react-blue](https://img.shields.io/badge/made%20with-react-blue)](https://reactjs.org/)
 
 Projeto em [React](https://reactjs.org/) para o site do Tarrafa Hackerclub  
-Confira em: https://tarrafa.club/
+Confira em: https://tarrafa.net/#/ ou https://tarrafahc.github.io/  
 
 ## Como desenvolver
 
