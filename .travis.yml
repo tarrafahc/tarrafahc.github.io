@@ -13,5 +13,6 @@ deploy:
   keep_history: true
   local_dir: out
   target_branch: master
+  fqdn: tarrafa.net
   on:
     branch: refac/nextjs
