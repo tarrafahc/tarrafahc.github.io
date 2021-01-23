@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run export
-  - touch out/.nojekyll
+  # - touch out/.nojekyll
 deploy:
   provider: pages
   skip_cleanup: true
@@ -16,4 +16,4 @@ deploy:
   target_branch: master
   fqdn: tarrafa.net
   on:
-    branch: dev
+    branch: test
