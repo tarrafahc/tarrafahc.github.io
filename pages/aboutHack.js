@@ -1,9 +1,8 @@
-import React from 'react'
-import Emoji from '../atoms/Emoji'
+import Emoji from '../components/atoms/Emoji'
 
 const AboutHack = () => {
   return (
-    <div>
+    <main>
       <h1>
         <Emoji symbol="💾" label="floppy disk" /> Sobre a Cultura Hacker
       </h1>
@@ -22,12 +21,13 @@ const AboutHack = () => {
         <a href="https://www.youtube.com/watch?v=w_jwcCseDk0" target="_blank" rel="noopener noreferrer">
           vídeo
         </a>
-        . O ponto chave da ética é o livre acesso a informação e melhoria da qualidade de vida. Alguns princípios já
+        .
+        <br/><br/>O ponto chave da ética é o livre acesso a informação e melhoria da qualidade de vida. Alguns princípios já
         tinham sido descritos em 1974 por Theodor Nelson, mas aparentemente foi Levy o primeiro a documentar a filosofia
         e seus fundadores. Estes princípios foram os primeiros a serem debatidos, mas ainda até hoje vem sendo
         discutidos, rebatidos, afirmados, reafirmados, comparados, enfim, está em constante evolução, pois a essência é
         o ser humano, que chega a ser “subjetivo”, e não a máquina.
-      </p>
+      </p><br/>
       <strong>Os 7 princípios descritos por Levy:</strong>
       <ul>
         <li>O acesso aos computadores deve ser total e ilimitado;</li>
@@ -46,10 +46,10 @@ const AboutHack = () => {
         tecnologia ou dos computadores. Posso arriscar que tudo que envolve busca do conhecimento para entender o
         propósito de algo e depois modificar e/ou melhorar para aplicá-lo, buscando um resultado melhor, seja com
         perspectivas pessoais ou coletivas é um hack, portanto quem o faz é um hacker.
-      </p>
+      </p><br/>
       Trecho retirado de{' '}
       <a href="https://www.foxlab.com.br/a-cultura-hacker/">https://www.foxlab.com.br/a-cultura-hacker/</a>
-    </div>
+    </main>
   )
 }
 

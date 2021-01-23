@@ -1,20 +1,22 @@
-import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
-import { ReactComponent as GithubIcon } from './atoms/Github.svg'
+import Link from 'next/link'
+import GithubIcon from '../components/atoms/Github.svg'
+import { useRouter } from 'next/router'
 
-const NavBar = props => {
+const NavBar = () => {
+  const router = useRouter()
   const navItems = [
     { path: '/', text: 'Início' },
     { path: '/aboutUs', text: 'Sobre nós' },
     { path: '/aboutHack', text: 'Sobre a Cultura Hacker' },
-    { path: '/activities', text: 'Agenda de Atividades' },
+    { path: '/activities', text: 'Agenda de Atividades' }
   ]
-
-  const renderItems = (navItems, props) =>
+  const renderItems = (navItems) =>
     navItems.map(({ path, text }, index) => (
-      <li key={index} className={`nav-item ${props.location.pathname === path ? 'active' : ''}`}>
-        <Link className="nav-link" to={path}>
-          {text}
+      <li key={index} className={`nav-item ${router.pathname === path ? 'active' : ''}`}>
+        <Link href={path}>
+          <a className="nav-link">
+            {text}
+          </a>
         </Link>
       </li>
     ))
@@ -28,13 +30,13 @@ const NavBar = props => {
           height="30"
           alt="tarrafa logo"
         />
-        <Link to="/">Tarrafa HC</Link>
+        <Link href="/">Tarrafa HC</Link>
       </div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-        <ul className="navbar-nav justify-content-end">{renderItems(navItems, props)}</ul>
+        <ul className="navbar-nav justify-content-end">{renderItems(navItems)}</ul>
       </div>
       <a href="https://github.com/tarrafahc/tarrafahc.github.io" target="_blank" rel="noopener noreferrer">
         {<GithubIcon />}
@@ -43,4 +45,4 @@ const NavBar = props => {
   )
 }
 
-export default withRouter(NavBar)
+export default NavBar

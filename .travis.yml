@@ -5,14 +5,15 @@ cache:
   directories:
     - node_modules
 script:
-  - npm test
-  - npm run build
+  - npm run export
+  - touch out/.nojekyll
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
-  local_dir: build
+  local_dir: out
   target_branch: master
+  fqdn: tarrafa.net
   on:
     branch: dev

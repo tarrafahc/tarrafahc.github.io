@@ -1,6 +1,5 @@
-import React from 'react'
-import StudyGroup from '../cards/StudyGroup'
-import Emoji from '../atoms/Emoji'
+import StudyGroup from '../components/cards/StudyGroup'
+import Emoji from '../components/atoms/Emoji'
 
 const Activities = () => {
   const studyGroups = [
@@ -11,7 +10,7 @@ const Activities = () => {
       forBegginers: true,
       organizer: 'Gustavo Dutra',
       date: 'Terças das 19:00 às 22:00',
-      tags: ['c', 'linux', 'bandit'],
+      tags: ['c', 'linux', 'bandit']
     },
     {
       title: 'Tarrafa WebDev',
@@ -19,20 +18,19 @@ const Activities = () => {
       forBegginers: true,
       organizer: 'Mark',
       date: 'Quartas das 19:30 às 21h:30',
-      tags: ['javascript', 'web'],
-      link: 'https://t.me/tarrafawebdev',
+      tags: ['javascript', 'web']
     },
     {
       title: 'Quintas dos pentestes',
       description: 'Estudamos segurança de software com plataformas como HackTheBoxEU e TryHackMe',
       organizer: 'Gustavo Dutra',
       date: 'Quintas das 19:00 às 22:00',
-      tags: ['cyber security', 'pentest'],
-    },
+      tags: ['cyber security', 'pentest']
+    }
   ]
-  const studyGroupCards = studyGroups.map(group => <StudyGroup group={group} />)
+  const studyGroupCards = studyGroups.map(group => <StudyGroup key={group.title} group={group} />)
   return (
-    <article>
+    <main>
       <h1>
         <Emoji symbol="📅" label="calendar" /> Agenda do Tarrafa
       </h1>
@@ -56,7 +54,7 @@ const Activities = () => {
         Contribua com a discussão na <a href="https://lists.riseup.net/www/info/tarrafahackerclube">lista de email</a>{' '}
         do Tarrafa.
       </p>
-    </article>
+    </main>
   )
 }
 
