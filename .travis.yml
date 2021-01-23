@@ -6,7 +6,6 @@ cache:
     - node_modules
 script:
   - npm run export
-  - rm out/.nojekyll
 deploy:
   provider: pages
   skip_cleanup: true
